@@ -2,6 +2,8 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "api": "apps/api",
+    "api-interface": "libs/api-interface",
     "react-app": "apps/react-app",
     "react-app-e2e": "apps/react-app-e2e",
     "ui-header": "libs/ui-header"
