@@ -3,6 +3,7 @@ import styles from './app.module.css';
 import NxWelcome from './nx-welcome';
 
 import { Route, Routes, Link } from 'react-router-dom';
+import { PageTitle } from '@clients/ui-header';
 
 export function App() {
   return (
@@ -26,6 +27,7 @@ export function App() {
           </li>
         </ul>
       </div>
+      <PageTitle />
       <Routes>
         <Route
           path="/"
